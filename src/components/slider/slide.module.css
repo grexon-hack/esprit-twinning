@@ -1,0 +1,66 @@
+.containerSlide {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.slide {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.circles {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+.clearPicture {
+  width: 102%;
+  height: 102%;
+  position: relative;
+  top: -102%;
+  left: -4px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clearPicture div {
+  font-size: 20px;
+  color: azure;
+  text-shadow: 0 0 5px black;
+  padding: 10px 20px;
+  border: solid 2px;
+}
+.clearPicture div:hover {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.377);
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .clearPicture div {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+}
+@media (max-width: 400px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}
