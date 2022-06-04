@@ -7,7 +7,7 @@ export default function TopBanner() {
     <div className={style.topbanner}>
       <div className={style.top}>
         <p>
-          ¿necesitas el regalo perfecto para dia de la madre? en ESPRIT
+          ¿Necesitas el regalo perfecto para el dia de la madre? en ESPRIT
           encuentras miles de opciones para que compres facil.
           <AiOutlineArrowRight />
         </p>
